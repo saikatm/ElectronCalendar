@@ -1,8 +1,5 @@
 # GoogleCalendar
 A simple Electron Wrapped Google Calendar Application
-
-# keep [![Build Status][travis-image]][travis-url]
-
 ## Install
 
 ```sh
