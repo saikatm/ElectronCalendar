@@ -3,7 +3,7 @@ A simple Electron Wrapped Google Calendar Application
 ## Install
 
 ```sh
-git clone https://github.com/andrepolischuk/keep
+git clone https://github.com/Nnamezie/GoogleCalendar
 cd keep
 npm install
 ```
