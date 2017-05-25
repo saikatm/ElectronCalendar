@@ -4,7 +4,7 @@ A simple Electron Wrapped Google Calendar Application
 
 ```sh
 git clone https://github.com/Nnamezie/GoogleCalendar
-cd keep
+cd GoogleCalendar
 npm install
 ```
 
