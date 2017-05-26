@@ -1,7 +1,7 @@
 {
   "name": "calendar",
   "productName": "Calendar",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A simple Electron wrapped Google Calendar Desktop App.",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,8 @@
       "electron-app",
       "Google",
       "electron",
-      "Calendar"
+      "Calendar",
+      "Google Calendar"
     ],
   "author": "John Nnamezie",
   "license": "ISC",
