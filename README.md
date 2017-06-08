@@ -1,7 +1,7 @@
 # GoogleCalendar
 A simple Electron Wrapped Google Calendar Application
 ## Install
-
+![](https://github.com/Nnamezie/GoogleCalendar/blob/master/images/screenshot.png)
 ```sh
 git clone https://github.com/Nnamezie/GoogleCalendar
 cd GoogleCalendar
