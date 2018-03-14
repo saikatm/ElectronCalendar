@@ -7,9 +7,9 @@
   "scripts": {
     "start": "electron .",
     "build": "npm run build:macos && npm run build:linux && npm run build:windows",
-    "build:macos": "electron-packager . --overwrite --asar --out=dist --ignore='^/(dist|assets)$' --platform=darwin --arch=x64 --icon=assets/icon.icns --app-bundle-id=com.andrepolischuk.keep && cd dist/Keep-darwin-x64 && zip -ryXq9 ../Keep-macos-${npm_package_version}.zip Keep.app",
-    "build:linux": "electron-packager . --overwrite --out=dist --ignore='^/(dist|assets)$' --platform=linux --arch=x64 --icon=assets/icon.png --app-bundle-id=com.andrepolischuk.keep && cd dist/Keep-linux-x64 && zip -ryq9 ../Keep-linux-${npm_package_version}.zip *",
-    "build:windows": "electron-packager . --overwrite --asar --out=dist --ignore='^/(dist|assets)$' --platform=win32 --arch=ia32 --icon=assets/icon.ico --version-string.ProductName=$npm_package_productName && cd dist/Keep-win32-ia32 && zip -ryq9 ../Keep-windows-${npm_package_version}.zip *",
+    "build:macos": "electron-packager . --overwrite --asar --out=dist --ignore=\"^/(dist|assets)$\" --platform=darwin --arch=x64 --icon=assets/icon.icns --app-bundle-id=com.andrepolischuk.keep && cd dist/Keep-darwin-x64 && zip -ryXq9 ../Keep-macos-${npm_package_version}.zip Keep.app",
+    "build:linux": "electron-packager . --overwrite --out=dist --ignore=\"^/(dist|assets)$\" --platform=linux --arch=x64 --icon=assets/icon.png --app-bundle-id=com.andrepolischuk.keep && cd dist/Keep-linux-x64 && zip -ryq9 ../Keep-linux-${npm_package_version}.zip *",
+    "build:windows": "electron-packager . --overwrite --asar --out=dist --ignore=\"^/(dist|assets)$\" --platform=win32 --arch=ia32 --icon=\"assets/google calendar ico.ico\" --version-string.ProductName=$npm_package_productName && cd dist/Keep-win32-ia32 && zip -ryq9 ../Keep-windows-${npm_package_version}.zip *",
     "test": "standard"
   },
   "keywords": [
