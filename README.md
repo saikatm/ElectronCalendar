@@ -6,6 +6,7 @@ A simple Electron Wrapped Google Calendar Application
 git clone https://github.com/Nnamezie/GoogleCalendar
 cd GoogleCalendar
 npm install
+npm install -g electron-packager
 ```
 
 ## Run
